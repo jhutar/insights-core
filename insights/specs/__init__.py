@@ -31,6 +31,7 @@ class Specs(SpecSet):
     branch_info = RegistryPoint()
     brctl_show = RegistryPoint()
     candlepin_error_log = RegistryPoint(filterable=True)
+    candlepin_events_psql_count = RegistryPoint()
     candlepin_log = RegistryPoint(filterable=True)
     checkin_conf = RegistryPoint()
     catalina_out = RegistryPoint(multi_output=True, filterable=True)
